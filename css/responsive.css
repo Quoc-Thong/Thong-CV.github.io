@@ -1,0 +1,74 @@
+/* Reponsive */
+/* PC: >= 1024px
+  Tablet: >= 740px & < 1023px
+  Mobile: < 740px
+ */
+/* PC */
+@media (min-width: 1024px) {
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+}
+
+/* Tablet & Mobile*/
+@media (max-width: 1023px) {
+  .social-list a {
+    margin: 0px 8px;
+  }
+
+  .social-list-text {
+    font-size: 20px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 740px) {
+  .s-full-width,
+  .s-col-full {
+    width: 100%;
+  }
+
+  .s-mt-8 {
+    margin-top: 8px;
+  }
+
+  #header {
+    overflow: hidden;
+  }
+
+  #header .mobile-menu-btn {
+    display: block;
+  }
+
+  #header .search-btn {
+    display: none;
+  }
+
+  #nav > li {
+    display: block;
+  }
+
+  #nav .subnav {
+    position: initial;
+    background-color: #000;
+  }
+
+  #nav .subnav a {
+    color: #fff;
+    padding: 5px 32px;
+  }
+
+  #content .member-item {
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  #content .content-info-img {
+    width: 60%;
+  }
+
+  .contact-form {
+    margin-top: 16px;
+  }
+}
